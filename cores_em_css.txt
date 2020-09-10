@@ -1,0 +1,60 @@
+Yoopay - Soluções Tecnológicas
+Muraski - Gestão de Imóveis
+
+===================================================================================
+
+Arquivo App.css
+
+Bordo Escuro = #3D0F4E
+Azul Escuro = #2e3192
+Bordo Claro = #572C67
+Azul CLaro = #4b4eb5
+
+.topnavbar .navbar-header {
+  background-color: transparent;
+  background-image: -webkit-linear-gradient(left, #2e3192 0%, #4b4eb5 100%);
+  background-image: -o-linear-gradient(left, #2e3192 0%, #4b4eb5 100%);
+  background-image: linear-gradient(to right, #2e3192 0%, #4b4eb5 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff23b7e5', endColorstr='#ff4b4eb5', GradientType=1);
+}
+
+
+Azul mais escuro = #2f80e7
+Bordo Claro = #572C67
+
+.bg-primary-dark {
+  background-color: #2f80e7;
+  color: #ffffff !important;
+}
+
+===================================================================================
+
+
+Arquivo bootstrap-rtl.css // bootstrap-rtl.css
+
+
+Azul mais escuro = #5d9cec
+Bordo bem Claro = #8A0886
+
+.bg-primary {
+  color: #fff;
+  //background-color: #5d9cec;
+  background-color: #8A0886;
+}
+
+
+
+Verde mais escuro = #27c24c
+Bordo bem Claro = #8A0886
+
+
+.btn-success {
+  color: #ffffff;
+  //background-color: #27c24c;
+  background-color: #8A0886;
+  border-color: #26be4a;
+}
+
+
+===================================================================================
