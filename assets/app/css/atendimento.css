@@ -1,0 +1,62 @@
+.datatable .corretor{
+	width: 200px;
+}
+
+.datatable .status,
+.datatable .ref{
+	width: 60px;
+}
+
+.datatable .view,
+.datatable .check,
+.datatable .delete{
+	width: 30px;
+}
+
+.datatable tbody td:last-child{
+	text-align: center;
+}
+
+.datatable .datetime,
+.datatable .email,
+.datatable .telefone{
+	width: 150px;
+}
+
+textarea#obs{
+	resize:none;
+	height: 150px;
+}
+
+#imoveis_encontrados .relacionar{
+	margin-top: 20px
+}
+
+
+#imoveis_relacionados .remove a{
+	position: absolute;
+	top:5px;
+	right: 20px;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	background: #fff;
+}
+
+#imoveis_relacionados .details:hover{
+	text-decoration: none;
+}
+
+#imoveis_relacionados .details img{
+	border:2px solid #fff;
+}
+
+#imoveis_relacionados .details:hover img{
+	border-color:#3483e7; /* bootstrap primary:hover; */
+}
+
+#imoveis_relacionados .caption p{
+	margin-bottom: 0;
+	line-height:110%;
+	font-size: 12px;
+}

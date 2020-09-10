@@ -1,0 +1,360 @@
+.select2-container .select2-selection--single {
+	height: 35px;
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+	line-height: 35px;
+}
+
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	height: 36px;
+}
+
+.wizard > .steps > ul > li {
+	width: 25%
+}
+
+#form-cadastro-imovel .wizard > .steps > ul > li {
+	width: 25%
+}
+
+/* VALIDAÇÃO DE FORMULÁRIOS (erros) */
+
+label.error{
+	font-weight: normal;
+	font-size: 80%;
+	color: #d9534f; /* bootstrap danger color */
+}
+
+select.error,
+textarea.error
+,input[type=text].error,
+input[type=email].error{
+	border-color: #d43f3a; /* bootstrap danger border color */
+}
+
+select:focus.error,
+textarea:focus.error,
+input[type=text]:focus.error,
+input[type=email]:focus.error{
+	border-color: #761c19; /* bootstrap danger border focus color */
+}
+
+.margin-left-right {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.ui-autocomplete {
+	z-index: 1500 !important;
+}
+
+#imagens > div {
+	cursor: move;
+}
+
+#imagens .removerFoto {
+	position: absolute;
+	width: 20px;
+	height: 20px;
+	right: 5px;
+	top: -10px;
+	color: #FFF;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	background-color: #F00;
+	line-height: 20px;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.datepicker_container {
+}
+
+.ui-state-disabled.ocupado, .ui-widget-content .ui-state-disabled.ocupado, .ui-widget-header .ui-state-disabled.ocupado,
+.ui-state-disabled.livre, .ui-widget-content .ui-state-disabled.livre, .ui-widget-header .ui-state-disabled.livre {
+	opacity: 1;
+    filter: Alpha(Opacity=100);
+    /* support: IE8; */
+}
+
+.ocupado .ui-state-default, .ocupado .ui-widget-content .ui-state-default, .ocupado .ui-widget-header .ui-state-default {
+	background: #FF0000 !important;
+	border: 1px solid #FF0000 !important;
+	color: #FFFFFF !important;
+}
+
+.livre .ui-state-default, .livre .ui-widget-content .ui-state-default, .livre .ui-widget-header .ui-state-default {
+	background: #FFF !important;
+	border: 1px solid #FFF !important;
+	color: #333 !important;
+}
+
+.links-locacao {
+}
+
+.links-locacao .link {
+	font-size: 36px;
+	color: #2e3192;
+	vertical-align: top;
+}
+
+.informacoes-imovel {
+	font-size: 12px;
+}
+
+.datepicker-busca-imoveis .ui-datepicker {
+	font-size: 11px;
+}
+
+.busca-imoveis-item {
+	padding: 15px;
+}
+
+.busca-imoveis-item .open-list {
+	color: #FFF;
+	text-decoration: none;
+}
+
+.busca-imoveis-item {
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+.list-items-busca {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.lista-fotos-imovel .miniaturas a {
+	display: block;
+	margin-top: 15px;
+	margin-bottom: 0;
+}
+
+/* Cadastro de locação */
+
+#descValorTotal {
+	line-height: 30px;
+	font-weight: 700;
+}
+
+span.valor {
+	font-size: 1em;
+}
+
+.ui-datepicker {
+	z-index:1151 !important;
+}
+
+#modalDepositos .confirmar,
+#modalDepositos .reverter {
+	width: 100%;
+}
+
+.container-grupos {
+}
+
+.lista-bens-alfabetica {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.lista-grupos .grupo-bens, .lista-grupos .grupo-bens li, .lista-bens-alfabetica li {
+	cursor: move;
+}
+
+.bens-imovel .removeItem {
+	position: absolute;
+	color: #666;
+}
+
+.bens-imovel .grupo-bens > .removeItem {
+	right: 5px;
+	top: 5px;
+}
+
+.bens-imovel .grupo-bens li .removeItem {
+	right: 5px;
+	top: 5px;
+}
+
+.lista-grupos .grupo-bens {
+	margin-bottom: 5px;
+}
+
+.grupo-bens {
+	position: relative;
+}
+
+.bens-imovel .grupo-bens:not(.avulsos) h4,
+.bens-imovel .grupo-bens li {
+	padding-right: 25px;
+	position: relative;
+}
+
+.bens-imovel .grupo-bens li select {
+	margin-left: 5px;
+}
+
+.grupo-bens:hover {
+	background-color: #EEE;
+}
+
+.bens-imovel {
+	padding: 5px 5px 0;
+}
+
+.bens-imovel .grupo-bens {
+	margin-bottom: 5px;
+}
+
+.grupo-bens ul,
+.bens-imovel ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+.grupo-bens ul li,
+.bens-imovel li {
+	display: inline-block;
+	background-color: #EEE;
+	border: 1px solid #CCC;
+	padding: 5px;
+	margin: 5px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.lista-bens-alfabetica li {
+	display: block;
+	background-color: #EEE;
+	border: 1px solid #CCC;
+	padding: 5px;
+	margin: 5px;
+	font-size: 12px;
+	font-weight: bold;	
+}
+
+.bens-imovel li {
+	width: 99%;
+}
+
+.grupo-bens h4,
+.bens-imovel h4 {
+	margin: 0 5px;
+}
+
+.grupo-bens ul {
+	display: none;
+}
+
+.lista-grupos .grupo-bens ul li:hover,
+.lista-grupos .bens-imovel li:hover {
+	background-color: #DDD;
+}
+
+.lista-grupos .panel-body,
+.bens-imovel .panel-body {
+	padding: 5px;
+}
+
+#frmPesquisaImoveis .nav-tabs > li:not(.active) > a {
+	color: #fff;
+    background-color: #8A0886;
+}
+
+#frmPesquisaImoveis .nav-tabs > li:not(.active) > a:hover {
+	background-color: #1aacda;
+}
+
+#panelImovel .ui-datepicker-group {
+	width: 100%;
+}
+
+#panelImovel .datepicker_container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.detalhes-imovel {
+	margin-bottom: 30px;
+}
+
+.detalhes-imovel h3 {
+	font-size: 14px;
+	color: #000;
+}
+
+.imovel_titulo {
+	font-size: 36px;
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 1400px){
+	.col-container-calendario {
+		width: 25%;
+	}
+	.col-container-painel-informacoes {
+		width: 41.666666666%;
+	}
+}
+
+.panel-primary .panel-heading-collapsed a {
+	color: #FFF !important;
+}
+
+#carouselImagensCliente .carouselint_prev,
+#carouselImagensCliente .carouselint_next {
+	color: #656565;
+	font-size: 28px;
+	display: inline-block;
+}
+
+.seta-bens {
+    margin-top: 60px;
+    font-size: 48px;
+}
+
+.caracteristicas-bem {
+	width: 100%;
+	margin-top: 5px;
+}
+
+.modal-content > .modal-header:first-child {
+	background-color: #2e3192;
+	color: #FFF;
+}
+
+.modal-content > .modal-header:first-child .close {
+	color: #FFF;
+}
+
+.modal-footer {
+	background-color: #2e3192;
+	color: #FFF;	
+}
+
+.modal-footer .btn {
+	background-color: #FFF;
+	color: #333;
+}
+
+#tableListaSinais,
+#tableListaPropostas {
+	font-size: 12px;
+}
+
+.endereco.container-error {
+	border: 2px solid #F00;
+}
+
+.select2-selection.error {
+    background: #fbe3e4 !important;
+    border: 1px solid #fbc2c4 !important;
+    color: #8a1f11 !important;	
+}

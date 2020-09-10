@@ -1,0 +1,38 @@
+#form-search-msg .intervalo{
+	display: none;
+}
+
+#form-search-msg .submit{
+	margin-top: 27px;
+}
+
+.datatable .selectall{
+	width: 30px;
+}
+
+.datatable .from{
+	width: 300px;
+}
+
+.datatable .to{
+	width: 120px;
+}
+
+.datatable .view,
+.datatable .delete{
+	width: 20px;
+}
+
+.datatable .datetime{
+	width: 150px;
+}
+
+.datatable .non-readed td{
+	font-weight: bold;
+	color: #f05050;
+}
+
+textarea#mensagem{
+	resize:none;
+	height: 300px;
+}

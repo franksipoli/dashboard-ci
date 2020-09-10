@@ -1,0 +1,169 @@
+.carousel-resultado {
+	position: relative;
+	height: 154px;
+	border: 2px solid transparent;
+}
+
+.carousel-resultado .carousel-wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	height: 150px;
+}
+
+.carousel-resultado .carousel-wrapper a {
+	display: block;
+	float: left;
+	position: relative;
+	width: 200px;
+	height: 150px;
+}
+
+.carousel-resultado .carousel-wrapper a + a {
+	border-left: 2px solid transparent;
+}
+
+.carousel-resultado .carousel-wrapper a img {
+	height: 150px;
+	width: auto;
+	display: block;
+}
+
+.carousel-resultado .carousel-wrapper a .back {
+	width: 200px;
+	height: 150px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	-moz-opacity: 0;
+	-webkit-opacity: 0;
+	background-color: rgba(46, 49, 146, 0.7);
+	transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-webkit-transition: all 300ms ease-in-out;
+	color: #FFF;
+	text-align: center;
+	padding: 15px;
+}
+
+#carouselResultado .controls {
+	text-align: center;
+}
+
+#carouselResultado .controls a {
+	color: #2e3192;
+	font-size: 36px;
+	display: inline-block;
+}
+
+#carouselResultado .controls a.disabled {
+	visibility: hidden;
+}
+
+#carouselResultado .controls a + a {
+	margin-left: 30px;
+}
+
+.carousel-resultado .carousel-wrapper a:hover .back {
+	opacity: 1;
+	-moz-opacity: 1;
+	-webkit-opacity: 1;
+}
+
+.carousel-resultado .carousel-wrapper .back .referencia {
+	font-weight: bold;
+}
+
+#carouselImagensCliente {
+	background-color: rgba(255, 255, 255, 0.95);
+	display: none;
+	position: absolute;
+	z-index: 9000;
+	top: 0;
+	left: 0;
+}
+
+#carouselImagensCliente .meio {
+	margin-top: 10px;
+}
+
+#carouselImagensCliente .imgMain img {
+	max-height: 100%;
+}
+
+#carouselImagensCliente .controls {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	height: 100px;
+	z-index: 1;
+}
+
+#carouselImagensCliente a.prev {
+	position: absolute;
+	left: 30px;
+	top: 50%;
+	margin-top: -20px;
+	color: #fff;
+	font-size: 36px;
+}
+
+#carouselImagensCliente a.next {
+	position: absolute;
+	right: 30px;
+	top: 50%;
+	margin-top: -20px;
+	color: #fff;
+	font-size: 36px;
+}
+
+#carouselImagensCliente .miniaturas {
+	position: absolute;
+	bottom: 0;
+	padding: 15px 0;
+	height: 130px;
+	z-index: 1;
+	width: 100%;
+	left: 0;
+	background-color: #2e3192;
+}
+
+#carouselImagensCliente .closeModalFotosImovel {
+	font-size: 36px;
+	color: #333;
+	display: block;
+	margin: 10px auto 0;
+	text-align: right;
+}
+
+#carouselImagensCliente .informacoes {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	max-height: 300px;
+	overflow-y: auto;
+}
+
+#carouselImagensCliente .carouselFotosInternoWrapper {
+	position: relative;
+	z-index: 2;
+	margin-left: 80px;
+	margin-right: 80px;
+	overflow: hidden;
+}
+
+#carouselImagensCliente .carouselFotosInternoWrapper a {
+	display: block;
+	float: left;
+	height: 100px;
+}
+
+#carouselImagensCliente .carouselFotosInternoWrapper a + a {
+	margin-left: 5px;
+}
+
+#carouselImagensCliente .carouselFotosInternoWrapper a img {
+	height: 100px;
+	width: auto;
+}
